@@ -1,0 +1,12 @@
+name: UHC
+version: 0.069
+main: uhc.Uhcmain
+description: Automatic UHC Plugin
+depend: [ProtocolLib]
+
+
+commands:
+  NextSegment:
+    description: Jumps to the next segment of the game. (OPs only)
+  ForceCleanup:
+    description: Forces Cleanup and Restart (OPs Only)
